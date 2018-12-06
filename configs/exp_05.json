@@ -1,0 +1,11 @@
+{
+  "description": "The official PyTorch version of CycleGAN.", 
+  "pool_size": 50,
+  "base_lr":0.0002,
+  "max_step": 200,
+  "network_version": "tensorflow",
+  "dataset_name": "photo2sketch_test",
+  "do_flipping": 0,
+  "_LAMBDA_A": 30,
+  "_LAMBDA_B": 30
+}

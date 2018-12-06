@@ -1,0 +1,6 @@
+{
+  "description": "Testing with trained model", 
+  "network_version": "tensorflow",
+  "dataset_name": "lkds2shxk_test",
+  "do_flipping": 0
+}

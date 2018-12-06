@@ -1,0 +1,6 @@
+{
+  "description": "The official PyTorch version of CycleGAN.", 
+  "network_version": "tensorflow",
+  "dataset_name": "lkds2shxk_test",
+  "do_flipping": 0,
+}
