@@ -88,18 +88,14 @@ CUDA_VISIBLE_DEVICES=0 python2 -m CycleGAN_TensorFlow_new.main \
     --log_dir=CycleGAN_TensorFlow_WMD/output/cyclegan/exp_05 \
     --config_filename=CycleGAN_TensorFlow_WMD/configs/exp_05_test.json \
     --checkpoint_dir=CycleGAN_TensorFlow_WMD/output/cyclegan/exp_05/20180705-160808 
-
-### 看这里看这里
-
-CUDA_VISIBLE_DEVICES=3 python2 -m image_processing.main --to_train=1 --log_dir=image_processing/output/cyclegan/exp_05 --config_filename=image_processing/configs/exp_05.json --checkpoint_dir=image_processing/output/cyclegan/exp_05/20181006-151308
-
-    nvidia-smi 反
 ```
-### HERE！！HERE！！
 
 The result is saved in CycleGAN_TensorFlow/output/cyclegan/exp_01/#new_timestamp#.
 
-
-
-
 /disk/lym/cyclegan/cyclegan/CycleGAN_TensorFlow3d/output/cyclegan/exp_05/20180612-102359
+
+
+以上是原本cyclegan的readme
+在我的工程中，执行
+CUDA_VISIBLE_DEVICES=3 python2 -m image_processing.main --to_train=1 --log_dir=image_processing/output/cyclegan/exp_05 --config_filename=image_processing/configs/exp_05.json --checkpoint_dir=image_processing/output/cyclegan/exp_05/20181006-151308
+结果储存在 image_processing/output/cyclegan/exp_01/ 里
